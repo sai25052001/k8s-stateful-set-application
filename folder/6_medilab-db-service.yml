@@ -7,7 +7,7 @@ metadata:
     type: service
     env: dev
 spec:
-  type: NodePort
+  type: LoadBalancer
   clusterIP: None
   ports:
     - port: 3306 
